@@ -1,0 +1,63 @@
+{
+  "editor.fontSize": 16,
+  /*"editor.fontFamily": "Fira Code", */
+  "workbench.iconTheme": "vscode-icons",
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "window.zoomLevel": 0,
+  "editor.cursorBlinking": "smooth",
+  "editor.fontLigatures": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "es5",
+  "[markdown]": {
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.parameterHints.enabled": false,
+    "editor.quickSuggestions": false,
+    "editor.snippetSuggestions": "none"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue": "html"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.sideBar.location": "left",
+
+  // Custom tags for the parser to use
+  "yaml.customTags": [
+    "!Ref",
+    "!FindInMap sequence",
+    "!FindInMap scalar",
+    "!GetAtt scalar",
+    "!GetAtt sequence",
+    "!GetAZs",
+    "!Cidr",
+    "!ImportValue",
+    "!Join sequence",
+    "!Select",
+    "!Split",
+    "!Sub sequence",
+    "!Sub scalar",
+    "!And",
+    "!Equals",
+    "!If",
+    "!Not",
+    "!Or"
+  ],
+  // Enable/disable default YAML formatter (requires restart)
+  "yaml.format.enable": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "yaml.format.singleQuote": true,
+  "editor.minimap.enabled": false
+}

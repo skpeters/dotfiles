@@ -1,0 +1,10 @@
+:syntax enable
+:set number
+:set background=dark
+:set wildmenu
+:set ignorecase
+:set smartcase
+:set autoindent
+:set ruler
+:set laststatus=2
+:set visualbell
