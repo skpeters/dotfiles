@@ -10,12 +10,33 @@ insert_final_newline = true
 
 ; Python
 [*.py]
-indent_style = space
 indent_size = 4
+
+; Shell
+[*.sh]
+indent_size = 4
+
+; SQL
+[*.sql]
+indent_size = 4
+
+; Javascript
+[*.js]
+indent_size = 2
+
+; CSS
+[*.css]
+indent_size = 2
 
 ; YAML
 [*.{yaml,yml}]
 indent_size = 2
 
-[*.md]
+; Html
+[*.{htm,html}]
+indent_size = 2
+
+; Markdown
+[*.{md,rst}]
+indent_size = 2
 trim_trailing_whitespace = false
